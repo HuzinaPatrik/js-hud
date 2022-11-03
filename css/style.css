@@ -1,0 +1,139 @@
+#bg {
+    position: relative;
+
+    width: 260px;
+    height: 60px;
+    background-color: rgba(56, 56, 56, 180);
+}
+
+#health, #armor, #food, #water, #stamina {
+    position: absolute;
+
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(41, 41, 41, 255);
+}
+
+#armor {
+    left: 60px;
+}
+
+#food {
+    left: 110px;
+}
+
+#water {
+    left: 160px;
+}
+
+#stamina {
+    left: 210px;
+}
+
+#health > *, #armor > *, #food > *, #water > *, #stamina > * {
+    position: absolute;
+}
+
+.fa-heart, .fa-shield, .fa-burger, .fa-bottle-water, .fa-bolt-lightning {
+    color: rgb(255, 87, 87);
+    left: 15px;
+    top: 15px;
+    width: 10px;
+    height: 10px;
+}
+
+.fa-shield {
+    color: rgb(255, 255, 102);
+}
+
+.fa-burger {
+    color: rgb(87, 255, 87);
+}
+
+.fa-bottle-water {
+    color: rgb(87, 87, 255);
+}
+
+.fa-bolt-lightning {
+    color: rgb(150, 150, 150);
+}
+
+.BGLeft, .BGLeftFullfill {
+    top: 4px;
+    left: 4px;
+    width: 3px;
+    height: 32px;
+    background-color: rgba(56, 56, 56, 255);
+}
+
+.BGLeftFullfill {
+    height: 0px;
+    background-color: rgba(255, 87, 87, 255);
+
+    transition: height 0.5s;
+}
+
+.BGBottom, .BGBottomFullfill {
+    top: 33px;
+    left: 7px;
+    width: 29px;
+    height: 3px;
+    background-color: rgba(56, 56, 56, 255);
+}
+
+.BGBottomFullfill {
+    width: 0px;
+    background-color: rgba(255, 87, 87, 255);
+
+    transition: width 0.5s;
+}
+
+.BGRight, .BGRightFullfill {
+    top: 4px;
+    left: 33px;
+    width: 3px;
+    height: 29px;
+    background-color: rgba(56, 56, 56, 255);
+}
+
+.BGRightFullfill {
+    top: 33px;
+    height: 0px;
+    background-color: rgba(255, 87, 87, 255);
+
+    transition: height 0.5s, top 0.5s;
+}
+
+.BGTop, .BGTopFullfill {
+    top: 4px;
+    left: 7px;
+    width: 26px;
+    height: 3px;
+    background-color: rgba(56, 56, 56, 255);
+}
+
+.BGTopFullfill {
+    left: 33px;
+    width: 0px;
+    background-color: rgba(255, 87, 87, 255);
+
+    transition: width 0.5s, left 0.5s;
+}
+
+.armor {
+    background-color: rgb(255, 255, 102);
+}
+
+.food {
+    background-color: rgb(87, 255, 87);
+}
+
+.water {
+    background-color: rgb(87, 87, 255);
+}
+
+.stamina {
+    background-color: rgb(150, 150, 150);
+}
